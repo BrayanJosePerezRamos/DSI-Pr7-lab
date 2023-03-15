@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node dist/ejercicio-3/bibliotecaMusical.js\"",
+    "start": "tsc-watch --onSuccess \"node dist/ejercicio-lab/primeNumber.js\"",
     "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf ./nyc_output",
     "doc": "typedoc",
     "test": "mocha"
