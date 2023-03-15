@@ -47,9 +47,6 @@ export class PrimeNumber {
    * @returns array con los primeros n numeros primos
    */
   private generatePrimes(n: number): number[] {
-    if (n <= 0 || n % 1 !== 0) {
-      throw new Error('n debe ser un numero entero positivo');
-    }
     const generatedPrimes: number[] = [];
     // buscar los primeros n numeros primos
     let i = 2;
